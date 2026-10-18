@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rist Online School provides accessible online courses in engineering, science, technology, business and practical skills.">
+  <title>Rist Online School | Learn for Your Future</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #203047;
+      line-height: 1.6;
+      background: #f5f8fc;
+    }
+    header {
+      background: #102b50;
+      color: white;
+      padding: 18px 6%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .brand { font-size: 23px; font-weight: bold; }
+    nav { display: flex; flex-wrap: wrap; gap: 15px; }
+    nav a { color: white; text-decoration: none; }
+    .hero {
+      padding: 65px 7%;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #102b50, #087e8b);
+    }
+    .hero h1 { font-size: clamp(30px, 5vw, 48px); margin: 0 0 15px; }
+    .hero p { max-width: 680px; margin: 0 auto 25px; }
+    .btn {
+      display: inline-block;
+      background: #f5c451;
+      color: #172b45;
+      padding: 11px 20px;
+      border-radius: 7px;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 5px;
+    }
+    .btn-outline {
+      border: 1px solid white;
+      color: white;
+      background: transparent;
+    }
+    main { max-width: 1100px; margin: auto; padding: 35px 18px; }
+    section { margin-bottom: 45px; }
+    h2 { text-align: center; color: #102b50; }
+    .intro { text-align: center; max-width: 760px; margin: auto; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 12px;
+      box-shadow: 0 3px 14px #152b4510;
+    }
+    .card h3 { color: #087e8b; margin-top: 0; }
+    .card a { color: #087e8b; font-weight: bold; }
+    .cta {
+      text-align: center;
+      padding: 30px 18px;
+      border-radius: 12px;
+      background: #e5f3f5;
+    }
+    footer {
+      background: #102b50;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+    footer a { color: #f5c451; margin: 0 8px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Rist Online School</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Learn Skills. Build Your Future.</h1>
+    <p>
+      Welcome to Rist Online School — an online learning
+      platform designed to make science, engineering,
+      technology and practical skills accessible to everyone.
+    </p>
+    <a class="btn" href="#courses">Explore Courses</a>
+    <a class="btn btn-outline"
+       href="https://docs.google.com/forms/d/e/1FAIpQLSe8UghsxIB9VyLbdSwqFlGHm9Ql53cDORNyvu_I_oIAMHSLBg/viewform?usp=dialog">
+      Student Registration
+    </a>
+  </section>
+
+  <main>
+    <section id="about">
+      <h2>About Rist Online School</h2>
+      <p class="intro">
+        Our mission is to help young people, job seekers and
+        lifelong learners develop useful knowledge and practical
+        skills through accessible online education.
+        Learn at your own pace and explore new opportunities.
+      </p>
+    </section>
+
+    <section id="courses">
+      <h2>Explore Our Learning Areas</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Electrical Engineering</h3>
+          <p>Start learning electrical principles, circuits,
+          components and basic electrical safety.</p>
+          <a href="#electrical">View course information →</a>
+        </article>
+        <article class="card">
+          <h3>Science & Laboratory</h3>
+          <p>Explore biology, chemistry, physics and laboratory
+          fundamentals.</p>
+          <a href="#contact">Ask about courses →</a>
+        </article>
+        <article class="card">
+          <h3>Technology & Robotics</h3>
+          <p>Discover electronics, robotics, automation and
+          emerging technologies.</p>
+          <a href="#contact">Explore learning options →</a>
+        </article>
+        <article class="card">
+          <h3>Business & Hospitality</h3>
+          <p>Develop practical knowledge in hospitality,
+          customer service and business operations.</p>
+          <a href="#contact">Ask about courses →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="electrical">
+      <h2>Featured Beginner Course</h2>
+      <div class="card">
+        <h3>Electrical Engineering for Beginners</h3>
+        <p><strong>Level:</strong> Beginner</p>
+        <p><strong>Topics:</strong> Voltage, current, resistance,
+        Ohm's law, circuits, components and electrical safety.</p>
+        <p>Study the fundamentals before progressing to practical
+        projects. Always follow appropriate electrical safety
+        procedures and instructor guidance.</p>
+        <p><strong>Course lessons will be published here.</strong></p>
+      </div>
+    </section>
+
+    <section class="cta" id="register">
+      <h2>Start Learning Today</h2>
+      <p>Register your interest in learning with Rist Online School.</p>
+      <a class="btn"
+         href="https://docs.google.com/forms/d/e/1FAIpQLSe8UghsxIB9VyLbdSwqFlGHm9Ql53cDORNyvu_I_oIAMHSLBg/viewform?usp=dialog">
+        Register Now
+      </a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact & Connect</h2>
+      <div class="card intro">
+        <p>Contact us for course information, registration
+        assistance and learning opportunities.</p>
+        <p>
+          <a href="https://wa.me/251900880868">Contact us on WhatsApp</a>
+        </p>
+        <p>
+          <a href="mailto:wasenalemayhu@gmail.com">Send us an email</a>
+        </p>
+        <p>
+          <a href="https://www.youtube.com/">Visit YouTube</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Rist Online School</strong></p>
+    <p>Accessible Learning. Practical Skills. Better Futures.</p>
+    <p>&copy; 2026 Rist Online School</p>
+  </footer>
+</body>
+    </html>
+  
